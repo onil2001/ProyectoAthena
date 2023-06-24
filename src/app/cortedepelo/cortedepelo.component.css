@@ -1,0 +1,80 @@
+h2 {
+    font-size: 3.5rem;
+    line-height: 1;
+}
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+mat-card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+mat-card:hover {
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 10px #333;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+button:hover {
+    background-color: #fff;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+.container {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-black-minimalist-atmospheric-wooden-background-backgroundwooden-backgroundtree-texture-image_77053.jpg);
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 5rem;
+    color: #ffffff;
+    text-align: center;
+}
+  .header {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+p {
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    background-color: #96aee2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f12e20;
+}

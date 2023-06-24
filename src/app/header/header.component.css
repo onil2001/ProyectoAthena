@@ -1,0 +1,16 @@
+.black-footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-section {
+    text-align: center;
+    flex-basis: 33.33%;
+  }
+  

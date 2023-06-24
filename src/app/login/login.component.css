@@ -1,0 +1,29 @@
+.container {
+    display: flex; /* para poder colocar ambos divs uno al lado del otro */
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .left-section {
+    width: 50%; /* ocupa la mitad del ancho */
+    padding: 5px; /* agrega un espacio alrededor */
+    text-align: center;
+  }
+  body{
+    overflow: auto;
+  }
+  .right-section {
+    width: 50%; /* ocupa la mitad del ancho */
+    margin-top: 5px;
+    background-image: url('/src/assets/img/fondologin.jpg'); /* establece la imagen de fondo */
+    background-size: cover; /* cubre todo el ancho y alto de la sección */
+  }
+  
+  .ancho {
+      width: 80%;
+  }
+  
+  .button {
+      height: 50px;
+  }

@@ -1,0 +1,44 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Athena</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center"
+      >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/" href="">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="precios">Precios y Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <button class="btn btn-outline-success" *ngIf="isLoggedIn" (click)="logout()">Cerrar Sesión</button>
+      <button class="btn btn-outline-success" *ngIf="!isLoggedIn"  (click)="login()">Bienvenidos</button>
+    </div>
+  </nav>
+</header>

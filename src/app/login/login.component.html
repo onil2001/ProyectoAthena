@@ -1,0 +1,45 @@
+<body>
+  <div class="container">
+    <div class="left-section">
+      <form [formGroup]="usuarioLogin" (ngSubmit)="onSubmit()">
+        <img src="./assets/img/vectorcorte.webp" width="50%" />
+        <h1>Athena</h1>
+  
+        <mat-form-field class="ancho" appearance="fill">
+          <mat-label>Usuario</mat-label>
+          <input matInput autocomplete="off" formControlName="usuario" />
+        </mat-form-field>
+  
+        <mat-form-field class="ancho" appearance="fill">
+          <mat-label>Contraseña</mat-label>
+          <input
+            type="password"
+            matInput
+            autocomplete="off"
+            formControlName="password"
+          />
+        </mat-form-field>
+  
+        <br />
+        <button
+          type="submit"
+          class="ancho button"
+          mat-raised-button
+          color="primary"
+          [disabled]="!usuarioLogin.valid"
+        >
+          Ingresar
+        </button>
+      </form>
+    </div>
+    <div class="right-section">
+      <img
+        src="https://media.vogue.es/photos/5cc6fa75aaa7f3d43869039b/master/w_2560%2cc_limit/loreal_peluquerias_salones_secret_518430049.jpg"
+        alt="Background"
+        width="650"
+        height="600"
+      />
+    </div>
+  </div>
+  <app-footer></app-footer>
+</body>
